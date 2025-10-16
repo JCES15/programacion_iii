@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+    <title> MI PRIMERA PAGINA DE JC</title>
+
+    </head>
+    <body  bgcolor = "F0EACE">
+          <img src="imagenes/logo_rrhh.jpg" align = "center" title ="esto esta aen el centro"
+         width="150"
+         height="80">
+        <br>
+        <br>
+        <h2>INGRESO DE EMPLEADOS</h2>
+        <h3>FORMULARIO</h3>
+        <p>
+            Ingresa por favor tu Nombre y tu email para hacer el registro y has clic en ENVIAR para grabar tus datos, gracias
+
+        </p>
+
+        <form action="proceso.php" method="post">
+            <fieldset>
+               <legend>
+                  Registro de Usuario
+
+
+               </legend>
+               <table>
+                  <tr>
+                    <td><label for = "name"> Nombres Completos</label>
+                        <input type = "text" id = "nombre" name = "nombre" placeholder = "Escribe tu Nombre">
+                    </td>
+                    <td> 
+                        <label for = "email"> Correo Electronico </label>
+                        <input typo = "text" id = "email" name = "email" placeholder = "Escribe tu Correo">
+                    </td>
+
+                     <td>
+                          <label for="fecha">Fecha de Nacimiento</label>
+                        <input type="date" id="fecha" name="fecha">
+
+                    </td>
+                    <td> 
+                       <label for="color">Color Favorito</label>
+                        <input type="color" id="color" name="color">
+
+                    </td>
+
+                     <td> 
+                         <label for="genero">Genero</label>
+                        <input type="radio" id="m" name="genero" value="M"><label for="m">Marculino</label>
+                        <input type="radio" id="f" name="genero" value="F"><label for="f">Femenino</label>
+
+                    </td>
+                    <td> 
+                        <label for = "pais">Pais </label>
+                        <select id = "pais" name = "pais" >
+                            <option value = "ec">Ecuador</option>
+                            <option value = "co">Colombia</option>
+                            <option value = "mx">Mexico</option>
+                            <option value = "vn">Venezuela</option>
+                        </select>
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>
+                        <label for = "comentario">Comentario</label>
+                        <textarea id = "comentarios" name = "comentarios" rows="4" cols="40"></textarea>
+                        <br>
+
+                    </td>
+                  </tr>
+                  <td>
+                    <input type="checkbox" id = "acepto" name = "acepto" required>
+                    <label for = "acepto">Acepto los terminos y condiciones de esto</label>
+                  </td>
+               </table>
+               <input type = "submit" value="Enviar Formulario">
+               <input type = "reset" value="Limpiar"   ></label>   
+
+            </fieldset>
+        </form>
+        <br>
+        <br>
+
+        <img src="imagenes/consultoria_rrhh.jpg" align = "center" title ="esto esta aen el centro"
+         width="150"
+         height="80">
+      
+    </body>
+
+
+</html>

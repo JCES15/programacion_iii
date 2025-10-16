@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+    <title> FORMULARIO DE REGISTRO PARA RRHH</title>
+
+    </head>
+    <body  bgcolor = "E2E8F0">
+          <img src="imagenes/logo_rrhh.jpg" align = "center" title ="esto esta aen el centro"
+         width="200"
+         height="100">
+        <br>
+        <br>
+        <h2>INGRESO DE EMPLEADOS</h2>
+        <h3>FORMULARIO</h3>
+        <p>
+            Ingresa por favor tus Datos para hacer el registro y has clic en ENVIAR para grabar tus datos, gracias
+
+        </p>
+
+        <form action="proceso.php" method="post">
+            <fieldset>
+               <legend>
+                 <strong> Registro de Usuario
+
+                  </strong>
+               </legend>
+               <table>
+                  <tr>
+                    <td><label for = "name"><strong> Nombres Completos</strong></label>
+                        <input type = "text" id = "nombre" name = "nombre" placeholder = "Escribe tu Nombre">
+                    </td>
+                    <td> 
+                        <label for = "email"><strong> Correo Electronico</strong> </label>
+                        <input typo = "text" id = "email" name = "email" placeholder = "Escribe tu Correo">
+                    </td>
+
+                     <td>
+                          <label for="fecha"><strong>Fecha de Nacimiento</strong></label>
+                        <input type="date" id="fecha" name="fecha">
+
+                    </td>
+                    <td> 
+                      <label for = "fono"><strong> Telefono</strong> </label>
+                      <input typo = "text" id = "fono" name = "fono" placeholder = "Escribe tu Telefono">
+
+                    </td>
+
+                     <td> 
+                         <label for="genero"><strong>Genero</strong></label>
+                         <br>
+                        <input type="radio" id="m" name="genero" value="M"><label for="m">Marculino</label><br>
+                        <input type="radio" id="f" name="genero" value="F"><label for="f">Femenino</label>
+
+                    </td>
+                    <br>
+                    <td> 
+                        <label for = "pais"><strong>Pais </strong></label>
+                        <select id = "pais" name = "pais" >
+                            <option value = "ec">Ecuador</option>
+                            <option value = "co">Colombia</option>
+                            <option value = "mx">Mexico</option>
+                            <option value = "vn">Venezuela</option>
+                        </select>
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>
+                        <label for = "comentario">Comentario</label>
+                        <textarea id = "comentarios" name = "comentarios" rows="4" cols="40"></textarea>
+                        <br>
+
+                    </td>
+                  </tr>
+                  <td>
+                    <input type="checkbox" id = "acepto" name = "acepto" required>
+                    <label for = "acepto">Acepto los terminos y condiciones de esto</label>
+                  </td>
+               </table>
+               <input type = "submit" value="Enviar Formulario">
+               <input type = "reset" value="Limpiar"   ></label>   
+
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <center>
+        <img src="imagenes/consultoria_rrhh.jpg" align = "center" title ="esto esta aen el centro"
+         width="150"
+         height="80">
+        </center>
+    </body>
+
+
+</html>
