@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Título de la página</title>
+</head>
+<body bgcolor="LightGray">
+    <header>
+<h1 align="center"><U>CONTACTOS</U></h1>
+<h3>CONTACTANOS PARA ASESORARTE</h3>
+<div>
+
+ <a href="acerca.html">Ir a ACERCA DE RRHH</a>
+ <br>
+  <a href="servicios.html">Ir a SERVICIOS</a>
+  <br>
+   <a href="tabla.html">Ir a ORGANIGRAMA</a>
+   <br>
+    
+     <br>
+        <br> 
+        <a href="index.html">Ir a la pagina de inicio de los RRHH</a>
+        </div>
+
+    </header>
+    <br>
+    <br>
+    <br>
+     <br>
+    <br>
+    <br>
+
+
+    <table align = "center" border="10" bgcolor="BEIGE">
+
+        <tr bgcolor="FDEBD0">
+            <th>
+                <font color="EC7063">
+                    Nombre
+                </font>
+            </th>
+            <th>
+                <font color="3498DB">
+                    Apellido
+                </font>
+            </th>
+            <th>
+                Celular
+            </th>
+            <th>
+                <font color="DC7633">
+                    Cargo
+                </font>
+            </th>
+        </tr>
+        <tr>
+            <td >
+                JC 
+            </td>
+
+            <td>
+                Endara
+            </td>
+            <td>
+                09123456
+            </td>
+            <td>
+               GERENTE
+            </td>
+        </tr>
+        <tr>
+            <td>
+                JC
+            </td>
+            <td>
+                Endara2
+            </td>
+            <td>
+                1710537869
+            </td>
+            <td>
+                ADMINISTRADOR
+            </td>
+        </tr>
+        <tr>
+            <td>
+                JC
+            </td>
+            <td>
+                Endara3
+            </td>
+            <td>
+                1710537869
+            </td>
+            <td>
+                EMPLEADO 1
+            </td>
+
+        </tr>
+         <tr>
+            <td>
+                JC
+            </td>
+            <td>
+                Endara4
+            </td>
+            <td>
+                1710537869
+            </td>
+            <td>
+                EMPLEADO 2
+            </td>
+
+        </tr>
+         <tr>
+            <td>
+                JC
+            </td>
+            <td>
+                Endara5
+            </td>
+            <td>
+                1710537869
+            </td>
+            <td>
+                EMPLEADO 3
+            </td>
+
+        </tr>
+         <tr>
+            <td>
+                JC
+            </td>
+            <td>
+                Endara6
+            </td>
+            <td>
+                1710537869
+            </td>
+            <td>
+                EMPLEADO 4
+            </td>
+
+        </tr>
+    </table>
+     <br>
+    <br>
+    <br>
+     <br>
+    <br>
+    <br>
+     <center>
+       
+            <br>
+            <a href="index.html">
+  <button type="button">Ir a INICIO</button>
+</a>
+<h2>SI TIENES ALGUNA DUDA POR FAVOR LLENA EL SIGUIENTE FORMULARIO</h2>
+        <h3>FORMULARIO</h3>
+        <p>
+            Ingresa por favor tus Datos para hacer el registro y has clic en ENVIAR para grabar tus datos, gracias
+
+        </p>
+
+        <form action="proceso.php" method="post">
+            <fieldset>
+               <legend>
+                 <strong> Registro de Usuario
+
+                  </strong>
+               </legend>
+               <table>
+                  <tr>
+                    <td><label for = "name"><strong> Nombres Completos</strong></label>
+                        <input type = "text" id = "nombre" name = "nombre" placeholder = "Escribe tu Nombre">
+                    </td>
+                    <td> 
+                        <label for = "email"><strong> Correo Electronico</strong> </label>
+                        <input typo = "text" id = "email" name = "email" placeholder = "Escribe tu Correo">
+                    </td>
+
+                     <td>
+                          <label for="fecha"><strong>Fecha de Nacimiento</strong></label>
+                        <input type="date" id="fecha" name="fecha">
+
+                    </td>
+                    <td> 
+                      <label for = "fono"><strong> Telefono</strong> </label>
+                      <input typo = "text" id = "fono" name = "fono" placeholder = "Escribe tu Telefono">
+
+                    </td>
+
+                     <td> 
+                         <label for="genero"><strong>Genero</strong></label>
+                         <br>
+                        <input type="radio" id="m" name="genero" value="M"><label for="m">Marculino</label><br>
+                        <input type="radio" id="f" name="genero" value="F"><label for="f">Femenino</label>
+
+                    </td>
+                    <br>
+                    <td> 
+                        <label for = "pais"><strong>Pais </strong></label>
+                        <select id = "pais" name = "pais" >
+                            <option value = "ec">Ecuador</option>
+                            <option value = "co">Colombia</option>
+                            <option value = "mx">Mexico</option>
+                            <option value = "vn">Venezuela</option>
+                        </select>
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>
+                        <label for = "comentario">Comentario</label>
+                        <textarea id = "comentarios" name = "comentarios" rows="4" cols="40"></textarea>
+                        <br>
+
+                    </td>
+                  </tr>
+                  <td>
+                    <input type="checkbox" id = "acepto" name = "acepto" required>
+                    <label for = "acepto">Acepto los terminos y condiciones de esto</label>
+                  </td>
+               </table>
+               <input type = "submit" value="Enviar Formulario">
+               <input type = "reset" value="Limpiar"   ></label>   
+
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <center>
+         <img src="../imagenes/consultoria_rrhh.jpg" align="center" title="esto esta aen el centro" width="150"
+            height="80">
+        </center>
+<main>
+    para mas informacion comunicate al:
+    <br>
+    UIO: 012345678
+    <br>
+    GYE: 874563210
+</main>
+
+</html>
