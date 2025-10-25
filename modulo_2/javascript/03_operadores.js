@@ -27,6 +27,23 @@ console.log(`Menor que ${numero3} < ${numero4}=${numero3 <numero4}`);
 console.log(`Mayor igual que ${numero3} >= ${numero4}=${numero3 >=numero4}`); 
 console.log(`Menor igual que ${numero3} <= ${numero4}=${numero3 <=numero4}`); 
 
+console.log("OPERADORES LOGICOS");
+console.log(`AND "Y" (${numero3} >= ${numero4} && ${numero3 ==numero4}`); 
+console.log(`Igualdad estricta ${numero3} === ${numero4}=${numero3 ===numero4}`); 
+console.log(`Desigualdad Debil ${numero3}! = ${numero4}=${numero3!=numero4}`); 
+console.log(`Desigualdad estricta ${numero3}! == ${numero4}=${numero3! == numero4}`); 
+console.log(`Mayor que ${numero3} > ${numero4}=${numero3 >numero4}`); 
+console.log(`Menor que ${numero3} < ${numero4}=${numero3 <numero4}`); 
+console.log(`Mayor igual que ${numero3} >= ${numero4}=${numero3 >=numero4}`); 
+console.log(`Menor igual que ${numero3} <= ${numero4}=${numero3 <=numero4}`); 
+
+//////////////////////////
+
+console.log("OPERADORES LOGICOS");
+console.log(`${numero3! = numero4 && numero3>=numero4&&numero3>numero4}`); 
+console.log(`Igualdad estricta ${numero3} === ${numero4}=${numero3 ===numero4}`); 
+console.log(`Desigualdad Debil ${numero3}! = ${numero4}=${numero3!=numero4}`); 
+console.log(`Desigualdad estricta ${numero3}! == ${numero4}=${numero3! == numero4}`); 
 
 
 
