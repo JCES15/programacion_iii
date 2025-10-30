@@ -34,7 +34,7 @@ for (const clave in persona){
     console.log("clave", clave, ": ", persona[clave] );
 }
 
-//////////////////////////// cuenta lcuantas claves
+//////////////////////////// cuenta cuantas claves
 
 const personas = {
     nombre: "Carlos",
